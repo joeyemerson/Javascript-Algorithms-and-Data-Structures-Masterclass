@@ -128,8 +128,13 @@ function naiveSearch(s, target) {
 
 Basically you need to understand 2 parts. One, building a pattern table and secondly, using that pattern table in the search algorithm. Here are some video resources:
 
+**KMP Overview**
 [![KMP Overview Video](http://img.youtube.com/vi/BXCEFAzhxGY/0.jpg)](http://www.youtube.com/watch?v=BXCEFAzhxGY 'KMP Overview')
+
+**Building a Pattern Table**
 [![Building a Pattern Table Video](http://img.youtube.com/vi/KG44VoDtsAA/0.jpg)](http://www.youtube.com/watch?v=KG44VoDtsAA 'Building a Pattern Table')
+
+**Simple Pattern Table Creation and Use**
 [![Simple Pattern Table Creation and Use Video](http://img.youtube.com/vi/GTJr8OvyEVQ/0.jpg)](http://www.youtube.com/watch?v=GTJr8OvyEVQ 'Simple Pattern Table Creation and Use')
 
 ### KMP Search Example
