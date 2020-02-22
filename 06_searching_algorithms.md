@@ -92,7 +92,7 @@ function binarySearch(arr, target) {
 
 ## Naive String Search
 
-Suppose you want to count the number of times a smaller string appears in a longer string. A straightforward approach involves checking pairs of characters individually.
+Suppose you want to count the number of times a substring appears in a longer string. A straightforward approach involves checking pairs of characters individually.
 
 String: "harold said haha in hamburg"
 Pattern: "haha"
@@ -124,14 +124,13 @@ function naiveSearch(s, target) {
 }
 ```
 
-## KMP Substring Search (Knuth-Morris-Pratt)
+## KMP String Search (Knuth-Morris-Pratt)
 
 Basically you need to understand 2 parts. One, building a pattern table and secondly, using that pattern table in the search algorithm. Here are some video resources:
 
-- [Good overview of KMP](https://www.youtube.com/watch?v=V5-7GzOfADQ)
-- [Detailed explanation on building a pattern table](https://www.youtube.com/watch?v=KG44VoDtsAA)
-- [Simple pattern table creation then its use](https://www.youtube.com/watch?v=GTJr8OvyEVQ)
-- [Another overview](https://www.youtube.com/watch?v=BXCEFAzhxGY)
+[![KMP Overview Video](http://img.youtube.com/vi/BXCEFAzhxGY/0.jpg)](http://www.youtube.com/watch?v=BXCEFAzhxGY 'KMP Overview')
+[![Building a Pattern Table Video](http://img.youtube.com/vi/KG44VoDtsAA/0.jpg)](http://www.youtube.com/watch?v=KG44VoDtsAA 'Building a Pattern Table')
+[![Simple Pattern Table Creation and Use Video](http://img.youtube.com/vi/GTJr8OvyEVQ/0.jpg)](http://www.youtube.com/watch?v=GTJr8OvyEVQ 'Simple Pattern Table Creation and Use')
 
 ### KMP Search Example
 
