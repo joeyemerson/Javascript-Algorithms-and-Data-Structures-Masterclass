@@ -1,4 +1,5 @@
 # Javascript Algorithms and Data Structures Masterclass
+
 These are my course notes and example files.
 
 1. Big O Notation
@@ -7,6 +8,7 @@ These are my course notes and example files.
 1. Problem Solving Patterns
 1. Recursion
 1. Searching Algorithms
+1. Intro to Sorting Algorithms
 1. Bubble Sort
 1. Selection Sort
 1. Insertion Sort
