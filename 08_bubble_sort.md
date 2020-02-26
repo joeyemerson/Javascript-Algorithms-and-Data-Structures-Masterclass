@@ -28,7 +28,7 @@ const swap = (arr, idx1, idx2) => {
 ```
 Start looping with a variable called i at the end of the array moving towards the beginning
   Start and inner loop with a variable called j from the beginning until i - 1
-  If arr[j] is greater than arr[j+1], swap those two values
+    If arr[j] is greater than arr[j+1], swap those two values
 Return the sorted array
 ```
 
