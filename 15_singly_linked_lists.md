@@ -26,16 +26,16 @@ There are no indexes. You always have to start at the beginning.
 
 ## Methods from This Implementation
 
-| Method           | Description                     |     Big O      |
-| :--------------- | :------------------------------ | :------------: |
-| push(val)        | Insert at end                   |      O(1)      |
-| pop()            | Remove from end                 |     O(_n_)     |
-| shift()          | Remove from beginning           |      O(1)      |
-| unshift(val)     | Insert at beginning             |      O(1)      |
-| get(pos)         | Get node by position            |     O(_n_)     |
-| set(pos, val)    | Update value by position        |     O(_n_)     |
-| insert(pos, val) | Add at specific position        | O(1) or O(_n_) |
-| remove(pos)      | Remove from a specific position | O(1) or O(_n_) |
+| Method           | Description                     | Big O  |
+| :--------------- | :------------------------------ | :----: |
+| push(val)        | Insert at end                   |  O(1)  |
+| pop()            | Remove from end                 | O(_n_) |
+| shift()          | Remove from beginning           |  O(1)  |
+| unshift(val)     | Insert at beginning             |  O(1)  |
+| get(pos)         | Get node by position            | O(_n_) |
+| set(pos, val)    | Update value by position        | O(_n_) |
+| insert(pos, val) | Add at specific position        | O(_n_) |
+| remove(pos)      | Remove from a specific position | O(_n_) |
 
 ## Implementation
 
