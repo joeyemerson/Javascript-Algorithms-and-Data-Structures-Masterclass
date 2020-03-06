@@ -2,6 +2,8 @@
 
 **Almost** identical to singly linked lists, except every node has **another** pointer to the **previous** node.
 
+![Linked List Comparison](./img/doubly-linked-list.jpeg 'Linked List Comparison')
+
 More memory is required compared to SLL. More memory === more flexibility. It's **almost** always a tradeoff!
 
 ## Methods from This Implementation
