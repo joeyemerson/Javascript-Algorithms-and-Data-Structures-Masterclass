@@ -117,37 +117,37 @@ class Node {
 class Queue {
   constructor() {
     this.size = 0;
-    this.first = null;
-    this.last = null;
+    this.front = null;
+    this.back = null;
   }
 
   enqueue(val) {
     const newNode = new Node(val);
 
-    if (!this.last) {
-      this.last = newNode;
+    if (!this.front) {
+      this.front = newNode;
     } else {
-      this.first.next = newNode;
+      this.back.next = newNode;
     }
 
-    this.first = newNode;
+    this.back = newNode;
     return ++this.size;
   }
 
   dequeue() {
-    if (!this.last) return null;
+    if (!this.front) return null;
 
-    const oldLast = this.last;
+    const oldfront = this.front;
 
     if (this.size === 1) {
-      this.last = null;
-      this.first = null;
+      this.front = null;
+      this.back = null;
     } else {
-      this.last = oldLast.next;
+      this.front = oldfront.next;
     }
 
     this.size--;
-    return oldLast;
+    return oldfront;
   }
 }
 ```
