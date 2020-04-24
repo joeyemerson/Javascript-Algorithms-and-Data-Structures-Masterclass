@@ -8,7 +8,7 @@ The last element added to the stack will be the first element removed from the s
 
 As you add items, the last thing (or topmost thing) is what gets removed first.
 
-![stack](./img/Stack.jpg 'Stack')
+![Stack](./img/stack.jpg 'Stack')
 
 **There's more than one way to implement a stack**
 
